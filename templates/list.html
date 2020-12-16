@@ -1,0 +1,19 @@
+  
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>List</title>
+</head>
+<body>
+    <ul>
+        {% for item in task %}
+        <li>
+            <label >
+                <span> ROUTE NAME:  {{item["route name"]}} --- Grado: {{item.grade}} </span>
+            </label>
+        </li>
+    </ul>
+      {% endfor %}
+</body>
+</html>
