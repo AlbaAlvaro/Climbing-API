@@ -13,6 +13,7 @@
 </head>
 
 <body>
+  <!-- <img src= 'static/images/img.jpg'> -->
     <table class="table table-striped table-hover">
         <thead>
           <tr>
@@ -25,14 +26,12 @@
         <tbody>
             {% for item in task %}
             <tr>
-              <th scope="row">{{item["route name"]}}</th>
-              <td>{{item.grade}}</td>
+              <th scope="row" >{{item["route name"]}}</th>
+              <td >{{item.grade}}</td>
               <td>{{item["sector name"]}}</td>
               <td>{{item.stars}}</td>
             </tr>
             {% endfor %}
-   
-    <!-- Background -->
 </body>
 </html>
 {% endblock %}

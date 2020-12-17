@@ -7,11 +7,6 @@ app = Flask(__name__)
 app.static_folder = 'static'
 app._static_folder = 'static'
 
-print(app.static_url_path)
-print(app.template_folder)
-print(app._static_folder)
-print(app.static_folder)
-
 client = MongoClient("mongodb://127.0.0.1:27017") #host uri  
 db = client["climbing-api"] #Select the database  
 
