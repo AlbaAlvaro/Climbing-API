@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    <h1>{% block title %} Welcome to the CimbingAPI {% endblock %}</h1>
+    <h1>{% block title %} Welcome to the ClimbingAPI {% endblock %}</h1>
     <form  method="POST">
         <div class="form-group">
             <select name=area class="form-select" id="place">
@@ -84,46 +84,10 @@
             </select>
         </div>
 
-        <div class="form-group">
-            <label class="sr-only" for="popular">Popular or not</label>
-            <select name="popu" class="form-select" id="popular">
-                <option selected>Select the popularity</option>
-                <option value="popular">More popular routes</option>
-                <option value="all">All the routes</option>
-            </select>
-        </div>
-
         <form method="post">
 
             <input type="submit" value="Submit">
         </form>
    
 
-    <!-- {% macro dropdown(name, data, selected = [], extra = '') -%}
-    <select name="{{ name }}" {{ extra|safe }}>
-    {%- for ind, val in data %}
-    <option value="{{ ind }}" {% if ind in selected %}selected="selected"{% endif %}>{{ val }}</option>
-    {%- endfor %}
-    </select>
-    {%- endmacro %} 
-    <div class="widget-content">
-        
-           <form action="{{ request.base_url }}" method="post" accept-charset="utf-8">
-              {{ dropdown('usuario', usuarios, extra='id="usuarios_select"') }}
-              <button type="submit" class="btn btn-secondary">Buscar</button>
-           </form>
-    </div> -->
-   
-   
-    <!-- <form method="POST">
-        <input name="text">
-        <input type="submit">
-    </form>
-    <select class="form-select" aria-label="Default select example">
-        <option selected>Open this select menu</option>
-        <option value="1">One</option>
-        <option value="2">Two</option>
-        <option value="3">Three</option>
-      </select>
-      <input class="btn btn-secondary btn-sm" type="submit" value="Submit"> -->
-      {% endblock %}
+     {% endblock %}
