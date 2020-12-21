@@ -1,5 +1,5 @@
 # Climbing API
-![Alt text]("static/images/img.jpg")
+![Alt text]("/static/images/img.jpg")
 
 ## Aim of the project
 Create an API that gives information about the routes of a desired area in Spain giving to the API, the area of interest and the grade of the route. It has also a webpage to interact more easily with the API.
@@ -21,7 +21,7 @@ Create the endpoints of the API to extract the desired information from MongoDB 
 
 Using **HTML** and **CSS** create a simple webpage to get the information from the API in an easier way.
 
-![Alt text]("static/images/web_img.PNG")
+![Alt_text]("static/images/web_img.PNG")
 
 ## Further development
 Improvements for the future include adding more areas to the database, showing in the webpage an interactive map to see where the determined areas are and adding the sector depending on the area to the selection menu.
